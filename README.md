@@ -1,127 +1,115 @@
-📊 Habit Performance Analytics Dashboard (Excel)
-🔎 Project Overview
+# 📊 Habit Performance Analytics Dashboard (Excel)
 
-This project is a Habit Performance Analytics Dashboard developed in Microsoft Excel to analyze daily productivity patterns over a 31-day period.
+##  Dashboard Preview
+  ![Dashboard Preview](Dashboard-preview.png)
+ 
+
+##  Project Overview
+
+This project is a **Habit Performance Analytics Dashboard** developed in Microsoft Excel to analyze daily productivity patterns over a 31-day period.
 
 The dashboard transforms raw habit tracking data into structured performance insights using formulas, percentage metrics, and visual analytics.
 
-🎯 Objective
+
+
+##  Objective
 
 To design a data-driven system that:
 
-Tracks daily habit completion
+- Track daily habit completion  
+- Calculate performance metrics  
+- Visualize productivity trends  
+- Measure overall consistency  
 
-Calculates performance metrics
 
-Visualizes productivity trends
 
-Measures overall consistency
-
-📂 Dataset Structure
+##  Dataset Structure
 
 The dataset consists of:
 
-31 Days of activity tracking
+- 31 Days of activity tracking  
+- 4 Core Habits:
+  - Study  
+  - Exercise  
+  - Reading  
+  - Coding  
+- Binary Input System (1 = Completed, 0 = Not Completed)
 
-4 Core Habits:
 
-Study
 
-Exercise
+##  Key Metrics Calculated
 
-Reading
+- Total Habits Completed (Daily)  
+- Daily Productivity %  
+- Overall Completion Rate  
+- Remaining Completion %  
 
-Coding
+### Formulas Used
 
-Binary Input System (1 = Completed, 0 = Not Completed)
+- `COUNTIF()` for completion aggregation  
+- Percentage calculations for performance scoring  
 
-📈 Key Metrics Calculated
 
-Total Habits Completed (Daily)
 
-Daily Productivity %
+##  Dashboard Components
 
-Overall Completion Rate
+###  Performance Table
 
-Remaining Completion %
+- Daily habit tracking across the month  
+- Auto-calculated totals and progress indicators  
+- Conditional formatting for visual performance signals  
 
-Formulas used:
+###  Summary Analytics Panel
 
-COUNTIF() for completion aggregation
+- Total Days  
+- Total Habits Completed  
+- Overall Completion %  
+- Remaining %  
 
-Percentage calculations for performance scoring
+###  Data Visualization
 
-📊 Dashboard Components
-1️⃣ Performance Table
+- Bar Chart for productivity comparison  
+- Color-coded heat-style tracking  
+- Performance progression across dates  
 
-Daily habit tracking across the month
+---
 
-Auto-calculated totals and progress indicators
+##  Tools & Techniques Used
 
-Conditional formatting for visual performance signals
+- Microsoft Excel  
+- Data Aggregation (`COUNTIF`)  
+- Performance Metrics Calculation  
+- Conditional Formatting  
+- Data Visualization (Column Chart)  
+- Dashboard Structuring  
 
-2️⃣ Summary Analytics Panel
 
-Total Days
 
-Total Habits Completed
+##  Insights Generated
 
-Overall Completion %
+- Identified high and low productivity days  
+- Measured habit consistency trends  
+- Evaluated overall monthly discipline score  
+- Visualized daily output fluctuations  
 
-Remaining %
 
-3️⃣ Data Visualization
+##  Skills Demonstrated
 
-Bar Chart for productivity comparison
+- Data Cleaning & Structuring  
+- KPI Calculation  
+- Analytical Thinking  
+- Dashboard Design  
+- Visual Data Communication  
 
-Color-coded heat-style tracking
 
-Performance progression across dates
 
-🛠 Tools & Techniques Used
+##  Future Enhancements
+ 
+- Habit-wise Performance Comparison  
+- Streak Detection System  
+- Monthly Dynamic Dashboard  
+- Pivot Table-Based Analysis
 
-Microsoft Excel
+##  Purpose
 
-Data Aggregation (COUNTIF)
-
-Performance Metrics Calculation
-
-Conditional Formatting
-
-Data Visualization (Column Chart)
-
-Dashboard Structuring
-
-📊 Insights Generated
-
-Identified high and low productivity days
-
-Measured habit consistency trends
-
-Evaluated overall monthly discipline score
-
-Visualized daily output fluctuations
-
-🚀 Skills Demonstrated
-
-Data Cleaning & Structuring
-
-KPI Calculation
-
-Analytical Thinking
-
-Dashboard Design
-
-Visual Data Communication
-
-🔮 Future Enhancements
-
-Add Donut Chart (Completed vs Remaining)
-
-Habit-wise Performance Comparison
-
-Streak Detection System
-
-Monthly Dynamic Dashboard
-
-Pivot Table-Based Analysis
+This project was built to practice and strengthen my foundational Excel skills by creating a real-world productivity tracking dashboard using formulas and charts.
